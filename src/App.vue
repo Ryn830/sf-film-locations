@@ -85,42 +85,5 @@
 </script>
 
 <style>
-  body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Helvetica';
-  }
-
-  a {
-    color: inherit;
-    text-decoration: none;
-  }
-
-  a:hover {
-    background-color: yellow;
-  }
-
-  /* For Phones */
-  @media (max-width: 600px) {
-    #app {
-      display: flex;
-      flex-flow: column;
-    }
-  }
-
-  /* For Tablets */
-  @media (max-width: 800px) and (min-width: 601px) {
-    #app {
-      display: flex;
-      flex-flow: column;
-    }
-  }
-
-  /* For Monitors */
-  @media (min-width: 801px) {
-    #app {
-      display: flex;
-      flex-flow: row wrap;
-    }
-  }
+  @import './styles/app.css';
 </style>

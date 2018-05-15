@@ -17,8 +17,8 @@
     },
     filters: {
       trim (string) {
-        if (string && string.length > 20) {
-          return string.slice(0, 20) + '...'
+        if (string && string.length > 25) {
+          return string.slice(0, 25) + '...'
         }
         return string
       }
@@ -27,7 +27,7 @@
 </script>
 
 <style lang='css'>
-  @import './card.mobile.css';
-  @import './card.tablet.css';
-  @import './card.desktop.css';
+  @import './styles/card/card.mobile.css';
+  @import './styles/card/card.tablet.css';
+  @import './styles/card/card.desktop.css';
 </style>

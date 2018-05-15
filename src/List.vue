@@ -27,7 +27,7 @@
 </script>
 
 <style lang='css'>
-  @import './list.mobile.css';
-  @import './list.tablet.css';
-  @import './list.desktop.css';
+  @import './styles/list/list.mobile.css';
+  @import './styles/list/list.tablet.css';
+  @import './styles/list/list.desktop.css';
 </style>

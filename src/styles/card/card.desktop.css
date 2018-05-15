@@ -15,6 +15,7 @@
   .title {
     font-weight: bold;
     font-size: .8rem;
+    word-break: break-word;
     margin-bottom: 2.5%;
   }
 
@@ -28,6 +29,7 @@
   .location {
     font-size: .75rem;
     white-space: nowrap;
+    overflow: hidden;
     text-overflow: ellipsis;
     margin: 0 5% 5% 0;
   }
@@ -36,5 +38,8 @@
     color: #797979;
     font-weight: lighter;
     font-size: .75rem;
+    white-space: pre-wrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
 }

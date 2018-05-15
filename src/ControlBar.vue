@@ -45,7 +45,7 @@
 </script>
 
 <style lang='css'>
-  @import './control_bar.mobile.css';
-  @import './control_bar.tablet.css';
-  @import './control_bar.desktop.css';
+  @import './styles/control_bar/control_bar.mobile.css';
+  @import './styles/control_bar/control_bar.tablet.css';
+  @import './styles/control_bar/control_bar.desktop.css';
 </style>
