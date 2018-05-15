@@ -1,0 +1,56 @@
+@media (max-width: 800px) and (min-width: 601px) {
+  .control-bar {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    height: 10rem;
+    background-color: #EEEEEE;
+  }
+
+  .app-title {
+    position: relative;
+    margin: 5% 0 0 0;
+    height: 35%;
+    font-size: 1.75rem;
+    font-weight: bold;
+  }
+
+  .control-container {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    height: 60%;
+  }
+
+  .search-box {
+    box-sizing: border-box;
+    margin: 0 2.5% 0 2.5%;
+    border-radius: .25rem ;
+    width: 60%;
+    height: 45%;
+  }
+
+  .sorting-container {
+    display: flex;
+    box-sizing: border-box;
+    margin: 2.5% 2.5% 0 2.5%;
+    width: 45%;
+    font-size: .85rem;
+  }
+
+  .sort-label {
+    align-self: flex-start;
+    width: 50%;
+    margin: 0 0 5% 0;
+    font-weight: bold;
+  }
+
+  .checkbox-container {
+    align-self: flex-start;
+    margin: 0 0 5% 0;
+    width: 40%;
+  }
+}

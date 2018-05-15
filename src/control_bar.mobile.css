@@ -1,0 +1,55 @@
+@media (max-width: 600px) {
+  .control-bar {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    height: 10rem;
+    background-color: #EEEEEE;
+  }
+
+  .app-title {
+    position: relative;
+    top: 15%;
+    height: 40%;
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+
+  .control-container {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50%;
+  }
+
+  .search-box {
+    box-sizing: border-box;
+    width: 95%;
+    margin: 0 2.5% 0 2.5%;
+    height: 40%;
+    border-radius: .25rem;
+  }
+
+  .sorting-container {
+    display: flex;
+    box-sizing: border-box;
+    width: 95%;
+    margin: 2.5% 2.5% 0 2.5%;
+    font-size: .85rem;
+  }
+
+  .sort-label {
+    align-self: flex-start;
+    width: 45%;
+    padding-top: .5%;
+    font-weight: bold;
+  }
+
+  .checkbox-container {
+    align-self: flex-end;
+    width: 25%
+  }
+}

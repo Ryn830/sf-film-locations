@@ -88,6 +88,7 @@
   body {
     margin: 0;
     padding: 0;
+    font-family: 'Helvetica';
   }
 
   a {
@@ -104,12 +105,11 @@
     #app {
       display: flex;
       flex-flow: column;
-      font-family: 'Helvetica';
     }
   }
 
   /* For Tablets */
-  @media (max-width: 800px) {
+  @media (max-width: 800px) and (min-width: 601px) {
 
   }
 

@@ -27,23 +27,6 @@
 </script>
 
 <style lang='css'>
-  @media (max-width: 600px) {
-    .list {
-      display: flex;
-      flex-flow: row wrap;
-      align-items: center;
-      justify-content: center;
-      padding: 2% 1% 0 1%;
-    }
-
-    .more_results {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      width: 100%;
-      height: 2.5rem;
-      cursor: pointer;
-      color: blue;
-    }
-  }
+  @import './list.mobile.css';
+  @import './list.tablet.css';
 </style>
