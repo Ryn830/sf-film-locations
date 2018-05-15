@@ -110,11 +110,17 @@
 
   /* For Tablets */
   @media (max-width: 800px) and (min-width: 601px) {
-
+    #app {
+      display: flex;
+      flex-flow: column;
+    }
   }
 
   /* For Monitors */
   @media (min-width: 801px) {
-
+    #app {
+      display: flex;
+      flex-flow: row wrap;
+    }
   }
 </style>

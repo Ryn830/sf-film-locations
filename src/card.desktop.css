@@ -1,3 +1,40 @@
 @media (min-width: 801px) {
+  .card {
+    display: flex;
+    flex-flow: column nowrap;
+    background-color: #EEEEEE;
+    box-sizing: border-box;
+    border-radius: 1rem 0 1rem 0;
+    border: 1px solid #9F9F9F;
+    width: 15%;
+    height: 8.5rem;
+    margin: .5%;
+    padding: 1.25%;
+  }
 
+  .title {
+    font-weight: bold;
+    font-size: .8rem;
+    margin-bottom: 2.5%;
+  }
+
+  .year {
+    color: #797979;
+    font-weight: lighter;
+    font-size: .75rem;
+    margin-bottom: 2.5%;
+  }
+
+  .location {
+    font-size: .75rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin: 0 5% 5% 0;
+  }
+
+  .director {
+    color: #797979;
+    font-weight: lighter;
+    font-size: .75rem;
+  }
 }

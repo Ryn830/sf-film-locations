@@ -1,3 +1,56 @@
 @media (min-width: 801px) {
+  .control-bar {
+    width: 20%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #EEEEEE;
+  }
 
+  .app-title {
+    width: 70%;
+    font-size: 1.75rem;
+    font-weight: bold;
+    margin: 10%;
+  }
+
+  .control-container {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 5rem;
+  }
+
+  .search-box {
+    border-radius: .25rem;
+    width: 100%;
+    height: 50%;
+    margin: 0 0 5% 0;
+  }
+
+  .sorting-container {
+    display: flex;
+    flex-flow: row wrap;
+    box-sizing: border-box;
+    margin: 2.5% 2.5% 0 2.5%;
+    width: 100%;
+    height: 60%;
+    font-size: .85rem;
+  }
+
+  .sort-label {
+    align-self: flex-start;
+    width: 100%;
+    margin: 0 0 5% 0;
+    font-weight: bold;
+  }
+
+  .checkbox-container {
+    align-self: flex-start;
+    margin: 0 0 5% 0;
+    width: 100%;
+  }
 }

@@ -29,4 +29,5 @@
 <style lang='css'>
   @import './list.mobile.css';
   @import './list.tablet.css';
+  @import './list.desktop.css';
 </style>

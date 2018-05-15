@@ -2,8 +2,8 @@
   <a class='card' :href='link'>
     <div class='title'>{{ title | trim }}</div>
     <div class='year'>{{ year }}</div>
-    <div class='location'>{{ location }}</div>
-    <div class='director'>{{ director }}</div>
+    <div class='location'>{{ location | trim }}</div>
+    <div class='director'><div>Directed by:</div>{{ director }}</div>
   </a>
 </template>
 
@@ -16,11 +16,11 @@
       }
     },
     filters: {
-      trim (title) {
-        if (title.length > 20) {
-          return title.slice(0, 20) + '...'
+      trim (string) {
+        if (string && string.length > 20) {
+          return string.slice(0, 20) + '...'
         }
-        return title
+        return string
       }
     }
   }
