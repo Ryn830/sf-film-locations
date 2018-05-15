@@ -2,8 +2,8 @@
   <div class='list-container'>
     <div class='list'>
       <card
-        v-for='(movie, index) in movies'
-        :key='index'
+        v-for='movie in movies'
+        :key='movie.uid'
         :director='movie.director'
         :location='movie.locations'
         :title='movie.title'
