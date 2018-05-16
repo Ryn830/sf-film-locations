@@ -1,5 +1,3 @@
-# Kinsa Health Coding Challenge
-
 > A responsive [Vue](https://vuejs.org/) application displaying the locations in San Francisco where movies and television shows have been filmed.
 
 ## Build Setup
@@ -21,9 +19,7 @@ For detailed explanation on how things work, consult the [docs for vue-loader](h
 
 The [webpack-simple](https://github.com/vuejs-templates/webpack-simple) template was used to produce the basic structure and configure `webpack.config.js`.
 
-### Kinsa Health Prompt
-
-Web Developer Coding Test
+### Prompt
 
 Build a responsive and cross-browser web app to display the locations where movies were filmed in San Francisco (See ZIP for screen designs).
 
