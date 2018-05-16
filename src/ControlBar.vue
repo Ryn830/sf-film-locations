@@ -30,6 +30,13 @@
         </div>
       </div>
     </div>
+    <div class='control-bar-spacer'></div>
+    <div
+      class='control-bar-results-container'
+      @click='() => { $emit("next-page") }'
+    >
+      More
+    </div>
   </div>
 </template>
 

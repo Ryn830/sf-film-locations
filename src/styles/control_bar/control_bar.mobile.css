@@ -1,10 +1,10 @@
 @media (max-width: 600px) {
   .control-bar {
+    height: 15%;
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
-    height: 10rem;
     background-color: #EEEEEE;
   }
 
@@ -37,7 +37,7 @@
     display: flex;
     box-sizing: border-box;
     width: 95%;
-    margin: 2.5% 2.5% 0 2.5%;
+    margin: 5% 2.5% 0 2.5%;
     font-size: .85rem;
   }
 
@@ -50,6 +50,11 @@
 
   .checkbox-container {
     align-self: flex-end;
-    width: 25%
+    width: 25%;
+  }
+
+  .control-bar-spacer,
+  .control-bar-results-container {
+    display: none;
   }
 }

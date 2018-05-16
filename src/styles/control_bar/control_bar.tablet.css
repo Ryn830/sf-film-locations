@@ -4,7 +4,6 @@
     flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
-    height: 10rem;
     background-color: #EEEEEE;
   }
 
@@ -52,5 +51,10 @@
     align-self: flex-start;
     margin: 0 0 5% 0;
     width: 40%;
+  }
+
+  .control-bar-spacer,
+  .control-bar-results-container {
+    display: none;
   }
 }

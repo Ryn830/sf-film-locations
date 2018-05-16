@@ -3,6 +3,7 @@
     <control-bar
       v-on:sort="capture_sort_criteria"
       v-on:search="handle_search"
+      v-on:next-page="update_movies"
     >
   </control-bar>
     <list
